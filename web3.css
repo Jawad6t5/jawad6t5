@@ -1,0 +1,75 @@
+
+@media only screen and (min-width: 2480px) {
+    .prem{
+      
+    width: 32%;
+    }
+  }
+@media only screen and (min-width: 2203px) {
+    .prem{
+      
+    width: 515px;
+    }
+  }
+@media only screen and (min-width: 2160px) {
+    .prem{
+      
+    width: 678px;
+    }
+  }
+@media only screen and (max-width: 1647px) {
+    .prem{
+      
+    width: 45%;
+    }
+  }
+  @media only screen and (max-width: 1419px) {
+    .prem{
+        
+    width: 47%;
+    }
+  }
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    .prem{
+       
+    width: 97%;
+    }
+  }
+@media only screen and (max-width: 748px){
+    .nav a{
+        display: none;
+    }
+    .nav .fa-bars{
+        display: block;
+    }
+}
+@media only screen and (max-width: 575px){
+  .prem{
+    height: 822px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 344px){
+  .prem{
+    height: 873px;
+    width: 100%;
+  }
+  #claim1{
+    font-size: 45px;
+  }
+  .det2 {
+  
+    height: 397px;
+}
+}
+@media only screen and (max-width: 311px){
+  
+  #claim1{
+    font-size: 45px;
+
+  }
+}

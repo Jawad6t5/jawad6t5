@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.nav{
+    height: 40px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 26px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.nav a:hover{
+   background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.2s;
+    box-shadow: 2px 3px 25px whitesmoke;
+    border: 2px black solid;
+
+}
+.fa-solid{
+    color: whitesmoke;
+    float: right;
+    position: absolute;
+    right: 16px;
+    font-size: 29px;
+    display: none;
+    
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+.t1{
+    text-align: center;
+    color: floralwhite;
+    font-size: 72px;
+    position: relative;
+    top: 27px;
+}
+.p1{
+    width: 100%;
+    height: 547px;
+
+}
+.content{
+    animation: slider 20s  0.5s infinite linear;
+    box-shadow: 1px 2px 10px 5px whitesmoke;
+    border: 2px solid black;
+    height: 520px;
+    position: relative;
+    top: 27px
+
+}
+@keyframes slider{
+    0%{ background-image: url(1.png); background-size: 100% 100%; background-repeat: no-repeat;}
+     
+
+    50%{background-image: url(pexels-pixabay-355887.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+
+
+    100%{background-image: url(pexels-s-migaj-747964.jpg); background-size: 100% 100%; background-repeat: no-repeat;}
+
+
+}
+
+
+
+
+.load{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #fff url(https://i.gifer.com/6XnO.gif) no-repeat center ;
+    z-index: 99;
+    overflow: hidden;
+}
+.plans{
+    
+    width: 100%;
+    height: 889px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.prem {
+    border: 2px solid whitesmoke;
+    width: 516px;
+    height: 785px;
+    display: inline-block;
+    border-spacing: 10px;
+   margin: 16px 14px;
+   color: whitesmoke;
+   position: relative;
+}
+
+.p2{
+    width: 100%;
+    height: 278px;
+    border: 2px solid whitesmoke;
+}
+.pi{
+    background-image: url(Untitled\ design.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pi4{
+    background-image: url(Add\ a\ heading.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
+.det2{
+
+    height: 347px;
+}
+.table1{
+   
+   
+    height: 100%;
+    width: 100%;
+}
+tr td p{
+    font-size: 27px;
+    color: whitesmoke;
+    text-align: center;
+}
+.claim{
+    text-align: center;
+    font-size: 27px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    position: absolute;
+    top: 701px;
+}
+#claim1{
+    font-family: fantasy;
+    width: 100%;
+    height: 76px;
+    font-size: 58px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+}
+#claim1:hover{
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    box-shadow: 1px 1px 25px whitesmoke;
+}
+#claim1:active{
+    background-color: hotpink;
+}
+.pi1{
+    background-image: url(Tiktok.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pi3{
+    background-image: url(Untitled\ design\ \(2\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.nav2{
+    width: 100%;
+   z-index: 1;
+    position: fixed;
+    top: 0%;
+    height: 55px;
+    background: rgb(0, 0, 0);
+}
+.subblog{
+    justify-content: center;
+    align-items: center;
+    display: inline-flexbox;
+}
+.blog{
+    background-color: #fff;
+}
+.igt h1{
+text-align: center;
+ font-size: 44px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.igt p{
+    font-size: 33px;
+    margin: 0 79px;
+}
+
+.subblog li{
+    font-size: 31px ;
+}
+.sidebar{
+    position: absolute;
+    top: 27px;
+    z-index: 210;
+    height: 100%;
+    background-color: aqua;
+    width: 22%;
+    font-size: 31px;
+    right: 9px;
+    display: none;
+}
+.a5{
+    text-decoration: none;
+}
+.visible{
+    display: block;
+
+}
+.tipa{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.loader{
+    width: 100%;
+    height: 500px;
+    z-index: 9;
+    position: fixed;
+    top: 166px;
+    left: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    height: 400px;
+    z-index: 10;
+    background-color: black;
+    color: whitesmoke;
+}
+.cen1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.instaimg{
+    width: 120px;
+  
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    background-image: url(pexels-david-besh-884788.jpg);
+}
